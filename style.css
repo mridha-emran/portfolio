@@ -261,11 +261,54 @@ body{
 }
 
 .about{
-  position: relative;
   width: 100%;
   background: #000016;
   color: aliceblue;
 }
+
+.about .content{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.col-left{
+  width: 50%;
+}
+
+.content-title{
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.paragraph-text{
+  font-size: 1em;
+  line-height: 1.8;
+}
+
+
+.col-right{  
+  width: 45%;
+}
+
+ .img-card{
+  position: relative;
+  width: 80%;
+  min-height: 250px;
+  margin-left: 10%;
+}
+ .img-card img{
+  position: absolute;
+  width: 60%;
+  height: 110%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 .skills-contact .content{
   display: flex;
   justify-content: center;
