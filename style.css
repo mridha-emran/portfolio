@@ -371,8 +371,13 @@ body{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 20px;
+  text-decoration: none;
+  margin-top: 25px;
   
+}
+
+.newLink{
+  text-decoration: none;
 }
 
 .work .content .card .card-img img:hover{
@@ -386,9 +391,38 @@ body{
 
 .work .content .card .middle .text {
   background-color:black;
+  font-size: 15px;
   color:white;
-  padding: 05px 35px;
+  padding: 05px 20px;
+  text-decoration: none;
 }
+
+.work .content .card .middle .text h3 {
+   color:red;
+}
+
+.work .content .card .middle .text h4 {
+  color:saddlebrown;
+}
+.work .content .card .middle .text li{
+ list-style: none;
+}
+
+.btn01{
+  color: #fff;
+  background: #0736b8;
+  font-size: 1em;
+  font-weight: 400;
+  display: inline-block;
+  padding: 05px 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  transition: 0.5s ease;
+}
+
+
 
 
 
