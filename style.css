@@ -539,6 +539,11 @@ body{
   header .navigation{
     display: none;
   }
+  
+  header .lang-menu{
+  margin-right:45px ;
+  }
+
 
   header .navigation.active{
     z-index: 888;
@@ -563,7 +568,7 @@ body{
     padding: 0 20px;
     border-radius: 20px;
   }
-
+ 
   header .navigation a:hover{
     background: #3a6cf4;
     color: #fff;
@@ -620,11 +625,23 @@ body{
     flex-direction: column;
   }
 
-  .about .content .column{
+   .col-right{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+
+  .col-left{
     position: relative;
     width: 100%;
   }
 
+   .img-card{
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+  }
 
   .contact-form{
     padding: 35px 40px;
